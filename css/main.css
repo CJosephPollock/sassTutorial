@@ -1,0 +1,26 @@
+div {
+  margin: 200px;
+  padding: 20px;
+  background-color: #ccc;
+  color: #111;
+  text-align: center;
+  border-radius: 15px; }
+  div p {
+    color: #5e5e5e;
+    text-align: justify; }
+
+body {
+  background-color: #eff; }
+  body #header {
+    border: 2px solid #66ff66; }
+  body #main {
+    border: 2px solid #009900; }
+
+h1, h2 {
+  font-size: 50px;
+  color: blue; }
+
+h2 {
+  color: green; }
+
+/*# sourceMappingURL=main.css.map */

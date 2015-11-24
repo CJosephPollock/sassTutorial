@@ -1,0 +1,58 @@
+$background-color:#ccc;
+$text-color:#111;
+
+$div-margin:200px;
+$div-padding:20px;
+
+div {
+	margin: $div-margin;
+	padding: $div-padding;
+	background-color: $background-color;
+	color: $text-color;
+
+	text-align: center;
+	border-radius: 15px;
+
+	p {
+		color: lighten($text-color, 30%);
+		text-align: justify;
+	}
+
+}
+
+$green: #0f0;
+
+body {
+	background-color: #eff;
+
+	#header {
+		border: 2px solid lighten($green, 20%);
+	}
+
+	#main {
+		border: 2px solid darken($green, 20%);
+	}
+}
+
+
+h1 {
+	font-size: 50px;
+	color: blue;
+}
+
+h2 {
+	@extend h1;
+	color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
